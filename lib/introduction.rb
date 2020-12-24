@@ -20,7 +20,7 @@ end
 
 # Method w/ optional parameter
 def sentence_three(name, career, talents, sign_off = "Goodbye")
-  
+  rand_num = rand(1...talents.length)
   puts "#{name}'s talents are " + {}
 
 
