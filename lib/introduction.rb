@@ -5,12 +5,23 @@
 
 name = "Jacob Lepler"
 career = "Software Engineer"
-talents = "programming"
+talents = ["programming", "singing"]
 
 
 # Method w/ one parameter
+def sentence_one(name)
+  puts "Hello, #{name}"
+end
 
+# Method w/ two parameters
+def sentence_two(name, career)
+  puts "#{name} works as a #{career}"
+end
 
+# Method w/ optional parameter
+def sentence_three(name, career, talents, sign_off = "Goodbye")
+  
+  puts "#{name}'s talents are " + {}
 
 
 
