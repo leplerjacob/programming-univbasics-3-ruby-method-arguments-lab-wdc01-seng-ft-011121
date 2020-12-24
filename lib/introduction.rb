@@ -26,7 +26,7 @@ end
 
 sentence_one(name)
 sentence_two(name, career)
-sentence_(name, career, talents, sign_off)
+sentence_three(name, career, talents)
 
 
 
