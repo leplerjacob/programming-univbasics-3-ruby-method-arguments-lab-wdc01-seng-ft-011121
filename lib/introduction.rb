@@ -24,6 +24,9 @@ def sentence_three(name, career, talents, sign_off = "Goodbye")
   puts "#{name}'s talents are " + talents.sample + " and works as a #{career}. #{sign_off}"
 end
 
+sentence_one(name)
+sentence_two(name, career)
+sentence_(name, career, talents)
 
 
 
